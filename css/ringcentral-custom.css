@@ -1,0 +1,198 @@
+/**
+ * Copyright (C) 2019-2024 Paladin Business Solutions
+ * 
+ */
+.SiteWide {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #0073AE;
+}
+/* ====== admin display tables ================== */
+.CustomTable {
+    background-color: white !important;
+    margin-top: 40px;
+    width: 650px;
+    /* border: 1px solid red ; */
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.CustomTable td, th {
+    padding: 5px !important;
+    /*border: 1px solid red ;*/
+}
+.CustomTable select {
+    /* height: 26px !important;   */
+}
+.CustomTable input[type="text"], input[type="password"] {
+    color: black;
+    width: 200px;
+}
+.CustomTable textarea {
+    color: black;
+    /* height: 200px !important; */
+    width: 80%;
+}
+.CustomTableFullCol {
+    text-align: center;
+}
+.CustomTableFullCol_left {
+    text-align: left;
+}
+.left_col {
+    width: 50% !important;
+    vertical-align: top !important;
+    /* background-color: red !important ; */
+}
+.right_col {
+    width: 50% !important;
+    vertical-align: top;
+}
+/* =====================  */
+.EditTable {
+    background-color: white !important;
+    margin-top: 40px;
+    width: 900px;
+    /* border: 1px solid red ; */
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.EditTable input[type="text"], input[type="password"] {
+    color: black;
+    width: 300px;
+}
+.EditTable textarea {
+    color: black;
+    height: 150px;
+    width: 90%;
+}
+.edit_left_col {
+    width: 40% !important;
+    padding-left: 10px;
+}
+.edit_right_col {
+    padding-left: 10px;
+    /* background-color: red !important ; */
+}
+.EditTableFullCol {
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px;
+}
+/* =====================  */
+.addform_left_col {
+    width: 50% !important;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.addform_right_col {
+    width: 50% !important;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background-color: red !important ; */
+}
+.addform_left_col_even {
+    width: 35% !important;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightgrey;
+}
+.addform_right_col_even {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightgrey;
+}
+/* =====================  */
+#page_title_img {
+    vertical-align: middle;
+}
+#page_title {
+    display: inline;
+    vertical-align: middle;
+}
+.msg_good {
+    color: #008EC2;
+    font-weight: bold;
+}
+.msg_bad {
+    color: red;
+    font-weight: bold;
+}
+.submit_button {
+    background: #008ec2;
+    border-color: #006799;
+    color: #fff;
+}
+.logout_button {
+    background: red;
+    border-color: #006799;
+    color: #fff;
+    margin-top: 15px;
+}
+.save_button {
+    background: #008ec2;
+    border-color: #006799;
+    color: #fff;
+    margin-top: 25px;
+}
+.right_side {
+    margin-left: 200px;
+}
+.div_center {
+    margin: auto;
+    width: 50%;
+}
+.wizard {
+    border: 1px solid black;
+    margin: 10px;
+    /* transform: scale(0.9); */
+}
+.para {
+    text-align: left !important;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.title {
+    text-align: center;
+    color: #008ec2;
+}
+.focus {
+    color: red;
+    text-align: left !important;
+    font-weight: bold;
+}
+.blue {
+    color: blue;
+    text-align: left !important;
+    font-weight: bold;
+}
+.links {
+    color: #008ec2;
+}
+.links:visited {
+    color: #008ec2;
+}
+.custom_settings {
+    width: 300px !important;
+}
+/* ======================= */
+.blink_me {
+    animation: blinker 1s linear infinite;
+    animation-iteration-count: 5;
+    color: red;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+.SMSToggle {
+    display: none;
+}
+.TMToggle {
+    display: none;
+}

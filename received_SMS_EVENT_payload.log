@@ -1,0 +1,7 @@
+{"uuid":"2749422867764293119","event":"/restapi/v1.0/account/3058829020/extension/2412476021/message-store/instant?type=SMS",
+"timestamp":"2024-11-25T14:36:59.378Z","subscriptionId":"ef8e353a-7095-442d-be5d-aafd4d29897d","ownerId":"2412476021",
+"body":{"id":"2362230751020","to":[{"phoneNumber":"+19029154774","name":"Peter MacIntyre","location":"Kentville, NS","target":true}],
+"from":{"phoneNumber":"+19029405827","phoneNumberInfo":{"countryCode":"1","nationalDestinationCode":"902","subscriberNumber":"9405827"}},
+"type":"SMS","creationTime":"2024-11-25T14:36:59.369Z","lastModifiedTime":"2024-11-25T14:36:59.369Z","readStatus":"Unread",
+"priority":"Normal","attachments":[{"id":"2362230751020","type":"Text","contentType":"text/plain"}],"direction":"Inbound",
+"availability":"Alive","subject":"TODAY","messageStatus":"Received","conversation":{"id":"7299446499095361093"}}}
