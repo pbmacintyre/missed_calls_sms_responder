@@ -30,9 +30,9 @@ $callLogs = json_decode($response, true);
 
 echo_spaces("call log", $callLogs);
 
-//foreach ($callLogs['records'] as $call) {
-//    //
-//}
+foreach ($callLogs['records'] as $call) {
+    //
+}
 
 /*
 // Filter unanswered calls
