@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/clue/stream-filter" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/evenement/evenement" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/php-http/guzzle7-adapter" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/php-http/httplug" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/php-http/message" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/php-http/promise" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/php-shopify/lib" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/php-shopify/tests" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/pubnub/pubnub" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/ratchet/pawl" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/ratchet/rfc6455" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/react/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/react/dns" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/react/event-loop" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/react/promise" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/react/socket" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/react/stream" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/ringcentral/ringcentral-php" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/rmccue/requests" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/includes/vendor/vlucas/phpdotenv" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

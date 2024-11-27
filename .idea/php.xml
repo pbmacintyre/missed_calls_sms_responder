@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/includes/vendor/react/cache" />
+      <path value="$PROJECT_DIR$/includes/vendor/react/dns" />
+      <path value="$PROJECT_DIR$/includes/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/includes/vendor/react/socket" />
+      <path value="$PROJECT_DIR$/includes/vendor/react/stream" />
+      <path value="$PROJECT_DIR$/includes/vendor/react/event-loop" />
+      <path value="$PROJECT_DIR$/includes/vendor/ratchet/pawl" />
+      <path value="$PROJECT_DIR$/includes/vendor/ratchet/rfc6455" />
+      <path value="$PROJECT_DIR$/includes/vendor/ringcentral/ringcentral-php" />
+      <path value="$PROJECT_DIR$/includes/vendor/evenement/evenement" />
+      <path value="$PROJECT_DIR$/includes/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/includes/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/includes/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/includes/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/includes/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/includes/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/includes/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/includes/vendor/php-shopify/lib" />
+      <path value="$PROJECT_DIR$/includes/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/includes/vendor/php-shopify/tests" />
+      <path value="$PROJECT_DIR$/includes/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/includes/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/includes/vendor/php-http/guzzle7-adapter" />
+      <path value="$PROJECT_DIR$/includes/vendor/pubnub/pubnub" />
+      <path value="$PROJECT_DIR$/includes/vendor/php-http/message" />
+      <path value="$PROJECT_DIR$/includes/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/includes/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/includes/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/includes/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/includes/vendor/composer" />
+      <path value="$PROJECT_DIR$/includes/vendor/clue/stream-filter" />
+      <path value="$PROJECT_DIR$/includes/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/includes/vendor/rmccue/requests" />
+      <path value="$PROJECT_DIR$/includes/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/includes/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/includes/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/includes/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/includes/vendor/psr/http-client" />
+    </include_path>
+  </component>
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>

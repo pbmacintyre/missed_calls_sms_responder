@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3357e0b9-91d6-4630-a837-853b995c785a" name="missed_calls_sms_app" url="http://ftp.paladin-bs.com">
+        <fileTransfer rootFolder="/missed_calls_sms_responder" host="ftp.paladin-bs.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
