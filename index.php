@@ -11,7 +11,7 @@ require_once('includes/ringcentral-php-functions.inc');
 
 show_errors();
 
-page_header(1);  // set back to 1 when recaptchas are set in the .ENV file
+page_header(0);  // set back to 1 when recaptchas are set in the .ENV file
 
 function show_form($message, $label = "", $print_again = false) { ?>
 
@@ -68,7 +68,10 @@ $redirect_url = $_ENV['RC_REDIRECT_URL'];
 if (isset($_POST['checkLog'])) {
     // authorize the access and get an access key
 	$authorization_url = "https://platform.ringcentral.com/restapi/oauth/authorize?response_type=code&client_id={$client_id}&redirect_uri={$redirect_url}";
-	header("Location: $authorization_url");
+
+//    echo_spaces("authorization URL", $authorization_url);
+
+    header("Location: $authorization_url");
 } else {
 	$message = "Click the Check log button to see if there are any missed calls in the log <br/>";
 	show_form($message);
