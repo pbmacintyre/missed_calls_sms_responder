@@ -5,10 +5,7 @@
 ob_start();
 session_start();
 
-require_once('includes/ringcentral-functions.inc');
 require_once('includes/ringcentral-php-functions.inc');
-
-show_errors();
 
 page_header(0);  // set back to 1 when recaptchas are set in the .ENV file
 
@@ -28,11 +25,6 @@ function show_form($message, $label = "", $print_again = false) { ?>
 //                        echo "<p class='msg_good'>" . $message . "</p>";
 						echo_plain_text($message, "#008EC2", "large");
 					} ?>
-                </td>
-            </tr>
-            <tr class="CustomTable">
-                <td class="CustomTableFullCol">
-                    <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
                 </td>
             </tr>
             <tr class="CustomTable">
@@ -58,7 +50,6 @@ function show_form($message, $label = "", $print_again = false) { ?>
 /* ============= */
 /*  --- MAIN --- */
 /* ============= */
-
 if (isset($_POST['checkLog'])) {
 	require(__DIR__ . '/includes/vendor/autoload.php');
 	$dotenv = Dotenv\Dotenv::createMutable(__DIR__ . '/includes')->load();

@@ -4,9 +4,6 @@ ob_start();
 session_start();
 
 require_once('includes/ringcentral-php-functions.inc');
-require_once('includes/ringcentral-curl-functions.inc');
-
-//show_errors();
 
 if (isset($_GET['code'])) {
 
