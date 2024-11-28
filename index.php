@@ -6,7 +6,6 @@ ob_start();
 session_start();
 
 require_once('includes/ringcentral-functions.inc');
-//require_once('includes/ringcentral-db-functions.inc');
 require_once('includes/ringcentral-php-functions.inc');
 
 show_errors();
@@ -59,17 +58,16 @@ function show_form($message, $label = "", $print_again = false) { ?>
 /* ============= */
 /*  --- MAIN --- */
 /* ============= */
-require(__DIR__ . '/includes/vendor/autoload.php');
-$dotenv = Dotenv\Dotenv::createMutable(__DIR__ . '/includes')->load();
-
-$client_id = $_ENV['RC_APP_CLIENT_ID'];
-$redirect_url = $_ENV['RC_REDIRECT_URL'];
 
 if (isset($_POST['checkLog'])) {
+	require(__DIR__ . '/includes/vendor/autoload.php');
+	$dotenv = Dotenv\Dotenv::createMutable(__DIR__ . '/includes')->load();
+
+	$client_id = $_ENV['RC_APP_CLIENT_ID'];
+	$redirect_url = $_ENV['RC_REDIRECT_URL'];
+
     // authorize the access and get an access key
 	$authorization_url = "https://platform.ringcentral.com/restapi/oauth/authorize?response_type=code&client_id={$client_id}&redirect_uri={$redirect_url}";
-
-//    echo_spaces("authorization URL", $authorization_url);
 
     header("Location: $authorization_url");
 } else {

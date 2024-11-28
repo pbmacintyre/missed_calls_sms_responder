@@ -8,13 +8,13 @@ require_once('includes/ringcentral-curl-functions.inc');
 
 //show_errors();
 
-require('includes/vendor/autoload.php');
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . "/includes")->load();
-
-$client_id = $_ENV['RC_APP_CLIENT_ID'];
-$client_secret = $_ENV['RC_APP_CLIENT_SECRET'];
-
 if (isset($_GET['code'])) {
+
+	require('includes/vendor/autoload.php');
+	$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . "/includes")->load();
+
+	$client_id = $_ENV['RC_APP_CLIENT_ID'];
+	$client_secret = $_ENV['RC_APP_CLIENT_SECRET'];
 
 	$auth_code = htmlentities(strip_tags($_GET['code']));
 	$redirect_uri = $_ENV['RC_REDIRECT_URL'];
