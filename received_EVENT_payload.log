@@ -1,9 +1,0 @@
-{"uuid":"994848555693304863","event":"/restapi/v1.0/account/3058829020/directory/entries",
-"timestamp":"2024-11-23T16:40:11.314Z","subscriptionId":"df108e0c-fb3f-475f-a7f3-311fb944bda4",
-"ownerId":"2412476021","body":{"contacts":[{"eventType":"Update",
-"oldEtag":"dfa30612d3c644230b341a4dc1efc5873e523a7800026606b513210eb4b9712d",
-"newEtag":"f71823b7734cb650e6751ddaf1a1dbf0f985ffcb7ee6c0fe648c00bb716c3ea5",
-"id":"2421611021","type":"User","status":"Enabled","firstName":"Peter","lastName":"MacIntyre 2",
-"department":"Chemistry","email":"info@paladin-bs.com","extensionNumber":"12004",
-"account":{"id":"3058829020"},"phoneNumbers":[{"phoneNumber":"+19023320720","type":"VoiceFax",
-"formattedPhoneNumber":"+1 (902) 3320720","usageType":"DirectNumber","primary":true}]}]}}
